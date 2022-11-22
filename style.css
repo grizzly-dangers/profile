@@ -1,0 +1,91 @@
+body {
+  background-color: aliceblue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:midnightblue;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: large;
+  text-align: center;
+}
+
+h2 {
+  font-size: medium;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+div {
+  border-radius: 4px;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+  width: 400px;
+}
+ #profile_pic {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+
+ a:hover{
+  color: slateblue;
+ }
+
+#music{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+.links {
+  border-radius: 4px;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 400px;
+  transition: all .2s ease-in-out;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  }
+
+.grow:hover {
+  transform: scale(1.1);
+  }
+
+.card {
+  margin-top: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
